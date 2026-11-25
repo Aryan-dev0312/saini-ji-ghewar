@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saini Ji Ghewar (Kandhla Wale) – Pure Desi Ghee Mithai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf5e9;--card:#fffdf8;--ink:#2b1a14;--mut:#6d5a50;--mar:#6e0f1f;--mar2:#8a1830;--gold:#b8892e;--gold2:#e2b857;--line:#e8dcc2;--sh:0 10px 30px rgba(110,15,31,.10);--serif:'Playfair Display',Georgia,serif;--sans:'Inter',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1210;--card:#271a17;--ink:#f6ebd6;--mut:#c4b39c;--line:#4a3629;--mar:#a3243c;--mar2:#c23550;--sh:0 10px 30px rgba(0,0,0,.4);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1c1210;--card:#271a17;--ink:#f6ebd6;--mut:#c4b39c;--line:#4a3629;--mar:#a3243c;--mar2:#c23550;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 var(--sans)}
+h1,h2,h3{font-family:var(--serif);margin:0;line-height:1.2}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:76px 0}
+.eyebrow{color:var(--gold);letter-spacing:.22em;text-transform:uppercase;font-size:12px;font-weight:600}
+.sec-h{text-align:center;margin-bottom:38px}
+.sec-h h2{font-size:clamp(28px,4vw,42px);color:var(--mar);margin-top:8px}
+.sec-h .orn{display:block;margin:12px auto 0;width:120px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:999px;font-weight:600;font-size:15px;border:1.5px solid transparent;cursor:pointer;transition:.25s;font-family:var(--sans)}
+.btn-p{background:var(--mar);color:#fff6e0}.btn-p:hover{background:var(--mar2);transform:translateY(-2px)}
+.btn-g{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#2b1a14}.btn-g:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn-o{border-color:var(--gold2);color:#fff6e0}.btn-o:hover{background:rgba(226,184,87,.18)}
+.btn-s{padding:8px 16px;font-size:13px;border-color:var(--mar);color:var(--mar);background:transparent}.btn-s:hover{background:var(--mar);color:#fff6e0}
+/* nav */
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:16px}
+.logo{font-family:var(--serif);font-weight:700;color:var(--mar);font-size:19px;line-height:1.1}
+.logo small{display:block;font:500 11px var(--sans);letter-spacing:.2em;color:var(--gold);text-transform:uppercase;margin-top:2px}
+.links{display:flex;gap:26px;font-size:14px;font-weight:500}
+.links a:hover{color:var(--mar2)}
+.burger{display:none;background:none;border:0;font-size:26px;color:var(--mar);cursor:pointer}
+@media(max-width:900px){.burger{display:block}.links{display:none;position:absolute;top:70px;left:0;right:0;background:var(--bg);flex-direction:column;padding:18px 24px;border-bottom:1px solid var(--line);gap:16px}.links.open{display:flex}.nav .btn{display:none}}
+/* hero */
+.hero{background:radial-gradient(ellipse at 80% 20%,rgba(226,184,87,.28),transparent 55%),linear-gradient(160deg,#4a0814,#6e0f1f 55%,#8a1830);color:#fff6e0;padding:88px 0 96px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;opacity:.07;background:radial-gradient(circle,#e2b857 2px,transparent 2.5px) 0 0/34px 34px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;position:relative}
+.hero h1{font-size:clamp(34px,5.4vw,62px);margin:14px 0 18px}
+.hero h1 em{color:var(--gold2);font-style:italic}
+.hero p{max-width:520px;color:#ecd9b8;font-size:17px}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.stats{display:flex;gap:30px;margin-top:38px;flex-wrap:wrap}
+.stats b{font:700 28px var(--serif);color:var(--gold2);display:block}.stats span{font-size:13px;color:#d9c49f}
+.plate{aspect-ratio:1;max-width:440px;margin:auto;width:100%;border-radius:50%;padding:14px;background:conic-gradient(from 30deg,#8f5c12,#f8dc8c,#c9951f,#fff0b8,#a8741a,#f3cf6e,#8f5c12);box-shadow:0 0 0 3px rgba(255,236,170,.35),0 0 70px rgba(226,184,87,.55),0 34px 60px rgba(0,0,0,.5);animation:float 6s ease-in-out infinite}
+.plate div{width:100%;height:100%;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 50% 40%,#a82040,#5a0a19 75%);box-shadow:inset 0 0 0 4px rgba(90,50,5,.55),inset 0 0 30px rgba(0,0,0,.45);display:grid;place-items:center}.plate svg{width:100%;height:100%}
+@keyframes float{50%{transform:translateY(-12px)}}
+@media(max-width:800px){.hero .wrap{grid-template-columns:1fr;text-align:center}.hero p{margin:auto}.cta,.stats{justify-content:center}.plate{max-width:280px;order:-1}}
+/* menu */
+.tabs{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
+.tab{padding:10px 22px;border-radius:999px;border:1.5px solid var(--gold);background:transparent;color:var(--mar);font:600 14px var(--sans);cursor:pointer;transition:.2s}
+.tab.on,.tab:hover{background:var(--mar);color:#fff6e0;border-color:var(--mar)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--sh);transition:.3s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-6px)}
+.ph{height:176px;display:grid;place-items:center;position:relative;padding:8px}.ph svg{width:100%;height:100%}.hart{background:rgba(255,246,224,.08);border:1px solid rgba(226,184,87,.35);border-radius:14px;margin-bottom:6px;padding:4px}.hart svg{width:100%;height:140px}
+.ph i{position:absolute;top:10px;left:10px;font:600 10px var(--sans);letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.85);color:var(--mar);padding:3px 9px;border-radius:99px}
+.cb{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.cb h3{font-size:18px;color:var(--mar)}
+.cb p{margin:0;font-size:13.5px;color:var(--mut);flex:1}
+.pr{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+.pr b{font:700 18px var(--serif);color:var(--gold)}.pr b small{font:400 12px var(--sans);color:var(--mut)}
+.note{text-align:center;font-size:12.5px;color:var(--mut);margin-top:22px}
+/* hampers */
+.hamp{background:linear-gradient(180deg,transparent,rgba(184,137,46,.10),transparent)}
+.hg{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.hc{background:linear-gradient(160deg,#5a0a19,#7d1228);color:#fff6e0;border-radius:20px;padding:30px 26px;border:1px solid var(--gold);position:relative;box-shadow:var(--sh)}
+.hc .ic{font-size:44px}.hc h3{font-size:22px;color:var(--gold2);margin:10px 0 8px}.hc p{color:#ecd9b8;font-size:14.5px;margin:0 0 18px}
+/* why */
+.wg{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px}
+.wb{text-align:center;padding:28px 18px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+.wb .seal{width:64px;height:64px;border-radius:50%;margin:0 auto 14px;display:grid;place-items:center;font-size:28px;background:radial-gradient(circle at 30% 30%,#f6d98a,#b8892e);box-shadow:0 0 0 4px var(--card),0 0 0 6px var(--gold)}
+.wb h3{font-size:17px;color:var(--mar)}.wb p{margin:6px 0 0;font-size:13.5px;color:var(--mut)}
+/* outlets */
+.og{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:24px}
+.oc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:16px;padding:26px;box-shadow:var(--sh);display:flex;flex-direction:column;gap:10px}
+.oc h3{color:var(--mar);font-size:22px}.oc p{margin:0;color:var(--mut);flex:1;font-size:14.5px}
+/* footer */
+footer{background:#3c0711;color:#e9d8b6;padding:64px 0 28px;border-top:4px solid var(--gold)}
+.fg{display:grid;grid-template-columns:1fr 1fr 1.4fr;gap:40px}
+@media(max-width:860px){.fg{grid-template-columns:1fr}}
+footer h4{font:600 18px var(--serif);color:var(--gold2);margin:0 0 14px}
+footer li{list-style:none;margin:8px 0;font-size:14.5px}footer ul{padding:0;margin:0}footer a:hover{color:var(--gold2)}
+form{display:grid;gap:10px}
+input,select,textarea{width:100%;padding:11px 14px;border-radius:10px;border:1px solid #6b3a3f;background:rgba(255,255,255,.07);color:#fff6e0;font:400 14.5px var(--sans)}
+input::placeholder,textarea::placeholder{color:#b9a58a}select option{color:#222}
+.r2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.copy{text-align:center;margin-top:44px;padding-top:20px;border-top:1px solid #5b2a31;font-size:13px;color:#b9a58a}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;width:56px;height:56px;border-radius:50%;background:#25a244;color:#fff;display:grid;place-items:center;font-size:28px;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}.plate{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a href="#home" class="logo">Saini Ji Ghewar<small>(Kandhla Wale)</small></a>
+  <nav class="links" id="links"><a href="#home">Home</a><a href="#specialties">Our Specialties</a><a href="#hampers">Gift Hampers</a><a href="#outlets">Outlets</a><a href="#contact">Contact</a></nav>
+  <a class="btn btn-g" href="#" data-wa="Namaste! I would like to place an order.">💬 Order on WhatsApp</a>
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+</div></header>
+
+<section class="hero" id="home" style="padding:88px 0 96px"><div class="wrap">
+  <div>
+    <span class="eyebrow" style="color:var(--gold2)">✦ Shamli · Kandhla · Thanabhawan ✦</span>
+    <h1>The Royal Heritage of <em>Pure Desi Ghee</em> Ghewar</h1>
+    <p>Authentic taste of Western UP since generations. Honeycomb-crisp ghewar, creamy rabdi and mithai made fresh every morning in pure desi ghee.</p>
+    <div class="cta"><a class="btn btn-g" href="#specialties">Explore Menu</a><a class="btn btn-o" href="#outlets">Visit Our Outlets</a></div>
+    <div class="stats"><div><b>100%</b><span>Pure Desi Ghee</span></div><div><b>3</b><span>Outlets</span></div><div><b>Daily</b><span>Fresh Batches</span></div></div>
+  </div>
+  <div class="plate"><div id="heroArt"></div></div>
+</div></section>
+
+<section id="specialties"><div class="wrap">
+  <div class="sec-h rv"><span class="eyebrow">Signature Specialties</span><h2>Sweets Made With Heritage</h2><i class="orn"></i></div>
+  <div class="tabs rv" id="tabs"></div>
+  <div class="grid" id="grid"></div>
+  <p class="note">Prices shown are indicative. Please confirm current rates with your nearest outlet.</p>
+</div></section>
+
+<section class="hamp" id="hampers"><div class="wrap">
+  <div class="sec-h rv"><span class="eyebrow">Festive &amp; Wedding</span><h2>Gift Hampers &amp; Bulk Orders</h2><i class="orn"></i></div>
+  <div class="hg">
+    <div class="hc rv"><div class="hart" data-art="H1"></div><h3>Dry Fruit Combos</h3><p>Customised boxes of kaju, badam, pista and kishmish, packed in festive gold-trimmed gift boxes.</p><button class="btn btn-g" data-q="Dry Fruit Combo hamper">Request Bulk Quote</button></div>
+    <div class="hc rv"><div class="hart" data-art="H2"></div><h3>Wedding Bhaji Boxes</h3><p>Elegant mithai boxes for shagun and baraat, made to your guest count and budget.</p><button class="btn btn-g" data-q="Wedding Bhaji Boxes">Request Bulk Quote</button></div>
+    <div class="hc rv"><div class="hart" data-art="H3"></div><h3>Festive Gift Hampers</h3><p>Diwali, Teej, Raksha Bandhan and Holi hampers with ghewar, ladoo, barfi and more.</p><button class="btn btn-g" data-q="Festive Gift Hamper">Request Bulk Quote</button></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-h rv"><span class="eyebrow">Why Choose Us</span><h2>A Name Families Trust</h2><i class="orn"></i></div>
+  <div class="wg">
+    <div class="wb rv"><div class="seal">🧈</div><h3>100% Pure Desi Ghee</h3><p>No shortcuts. Only real ghee in every sweet.</p></div>
+    <div class="wb rv"><div class="seal">🌅</div><h3>Freshly Prepared Daily</h3><p>Small batches made every morning.</p></div>
+    <div class="wb rv"><div class="seal">✨</div><h3>Hygienic Kitchen</h3><p>Clean, careful preparation and packing.</p></div>
+    <div class="wb rv"><div class="seal">❤️</div><h3>Trusted by Thousands</h3><p>Loved across Shamli &amp; Kandhla.</p></div>
+  </div>
+</div></section>
+
+<section id="outlets" style="background:linear-gradient(180deg,transparent,rgba(184,137,46,.10))"><div class="wrap">
+  <div class="sec-h rv"><span class="eyebrow">Our Outlets</span><h2>Visit Us Near You</h2><i class="orn"></i></div>
+  <div class="og" id="og"></div>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+  <div class="fg">
+    <div>
+      <div class="logo" style="color:var(--gold2);font-size:22px">Saini Ji Ghewar<small>(Kandhla Wale)</small></div>
+      <p style="font-size:14.5px;margin:14px 0">Pure desi ghee mithai, made the traditional way.</p>
+      <p style="font-size:14.5px;margin:0">🕘 Daily: 8:00 AM – 10:00 PM<br><span style="color:#b9a58a;font-size:12.5px">(Timings are placeholders; please update)</span></p>
+      <p style="margin-top:14px"><a href="https://instagram.com/sainiji_ghewar" target="_blank" rel="noopener" class="btn btn-o btn-s" style="color:#fff6e0;border-color:var(--gold2)">📷 @sainiji_ghewar</a></p>
+    </div>
+    <div><h4>Quick Links</h4><ul><li><a href="#home">Home</a></li><li><a href="#specialties">Our Specialties</a></li><li><a href="#hampers">Gift Hampers</a></li><li><a href="#outlets">Outlets</a></li></ul></div>
+    <div><h4>Bulk / Party Order Inquiry</h4>
+      <form id="bf">
+        <div class="r2"><input id="fn" placeholder="Your name" required><input id="fp" type="tel" placeholder="Phone number" required></div>
+        <div class="r2"><select id="fo"><option>Party order</option><option>Wedding</option><option>Festive hamper</option><option>Other</option></select><input id="fd" type="date" aria-label="Date needed"></div>
+        <textarea id="fm" rows="3" placeholder="Items and quantity (e.g. 10 kg ghewar, 5 kg kaju ladoo)"></textarea>
+        <button class="btn btn-g" type="submit" style="justify-content:center">Send Inquiry on WhatsApp</button>
+      </form>
+    </div>
+  </div>
+  <div class="copy">© 2026 Saini Ji Ghewar (Kandhla Wale). All rights reserved.</div>
+</div></footer>
+<a class="wa" href="#" data-wa="Namaste! I would like to place an order." aria-label="WhatsApp">💬</a>
+
+<script>
+var NUM="910000000000"; // TODO: replace with real WhatsApp number (country code + number)
+function wa(t){window.open("https://wa.me/"+NUM+"?text="+encodeURIComponent(t),"_blank")}
+var G={gold:['#fbe19a','#dba43c','#8f5c12'],amber:['#e8a93f','#b8701c','#6e3d0a'],kaju:['#fff3cd','#ecc872','#b98f3a'],choc:['#9a6a50','#4a2616','#25100a'],dodha:['#c98a52','#8a521f','#4d2a0c'],peda:['#f2c27a','#c98b3f','#8a5a1e'],brown:['#c0643a','#6a2a10','#2e0f04'],white:['#ffffff','#f6ecd8','#d9c7a0'],mawa:['#e9b46c','#a9692a','#62340f'],green:['#cfe58a','#7ea32f','#476613'],milk:['#fff8e6','#f3e2b8','#dcc088'],bowl:['#fff0c8','#d6a345','#8a5a14'],sam:['#f6c25a','#c9801f','#7d4408'],kal:['#f8e7bd','#e1bb72','#b58a3a'],cake:['#d99a52','#a56a26','#6e3e10'],tam:['#a8541e','#6a2c0c','#33140a'],red:['#9a1830','#6e0f1f','#3c0711'],ora:['#ffb347','#f0740f','#b8470a']};
+document.body.insertAdjacentHTML('afterbegin','<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>'+Object.keys(G).map(function(k){return '<radialGradient id="g-'+k+'" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="'+G[k][0]+'"/><stop offset=".55" stop-color="'+G[k][1]+'"/><stop offset="1" stop-color="'+G[k][2]+'"/></radialGradient>'}).join('')+'</defs></svg>');
+var f=function(g){return 'url(#g-'+g+')'};
+var R=function(i){var x=Math.sin(i*12.9898)*43758.5453;return x-Math.floor(x)};
+var E=function(x,y,rx,ry,g,o){var c=(g=='none'||g[0]=='#')?g:f(g);return '<ellipse cx="'+x+'" cy="'+y+'" rx="'+rx+'" ry="'+ry+'" fill="'+c+'"'+(o||'')+'/>'};
+var Sh=function(x,y,rx){return E(x,y,rx,rx*.2,'#000',' opacity=".22"')};
+var Bl=function(x,y,r,g){return Sh(x,y+r*.92,r*.9)+'<circle cx="'+x+'" cy="'+y+'" r="'+r+'" fill="'+f(g)+'"/>'+E(x-r*.3,y-r*.42,r*.4,r*.2,'#fff',' opacity=".38"')};
+var Nt=function(x,y,t,a){var tr=' transform="rotate('+a+' '+x+' '+y+')"';return t=='p'?E(x,y,3.6,2.2,'#7fa82c',tr)+E(x,y,1.8,1,'#c9e07a',tr):E(x,y,5,2.8,'#e6c08a',tr+' stroke="#b58750" stroke-width=".6"')};
+var Sf=function(x,y,a){var s='';for(var i=0;i<4;i++)s+='<path d="M'+(x+i*2)+' '+y+' q'+(3+i)+' -4 '+(6-i*2)+' -9"/>';return '<g stroke="#e8481a" stroke-width="1.5" fill="none" stroke-linecap="round" transform="rotate('+a+' '+x+' '+y+')">'+s+'</g>'};
+var Dt=function(x0,y0,w,h,n,c,sd){var s='';for(var i=0;i<n;i++)s+='<circle cx="'+(x0+R(i+sd)*w).toFixed(1)+'" cy="'+(y0+R(i*3+sd+7)*h).toFixed(1)+'" r="'+(.8+R(i+sd*2)*.9).toFixed(1)+'" fill="'+c+'" opacity=".6"/>';return s};
+var S=function(t,i,vb){return '<svg viewBox="'+(vb||'0 0 200 150')+'" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="'+t+'">'+i+'</svg>'};
+var lat=function(y,rx,ry){var s='',i;for(i=1;i<6;i++)s+=E(100,y,rx*i/6,ry*i/6,'none',' stroke="#7a4509" stroke-opacity=".45" stroke-width="2.4" stroke-dasharray="3 3.4"');for(i=0;i<14;i++){var a=i*Math.PI/7;s+='<line x1="100" y1="'+y+'" x2="'+(100+rx*Math.cos(a)).toFixed(1)+'" y2="'+(y+ry*Math.sin(a)).toFixed(1)+'" stroke="#7a4509" stroke-opacity=".28" stroke-width="1.4"/>'}return s};
+var GH=function(k){var s=Sh(100,130,74),i;
+ if(k=='p'){s+=E(100,110,76,36,'amber')+E(100,98,76,36,'amber')+E(100,86,76,38,'gold')+E(100,86,76,38,'none',' stroke="#fff" stroke-opacity=".55" stroke-width="2"')+lat(86,70,34)+E(78,72,26,6,'#fff',' opacity=".3"');for(i=0;i<10;i++)s+='<circle cx="'+(40+R(i)*120).toFixed(0)+'" cy="'+(80+R(i+9)*16).toFixed(0)+'" r="1.6" fill="#fff" opacity=".8"/>';return s}
+ s+=E(100,94,78,46,'amber')+E(100,86,78,46,'gold')+lat(86,72,40)+E(74,64,28,7,'#fff',' opacity=".28"');
+ if(k=='m'){s+=E(100,84,52,29,'#7a4509',' opacity=".5"')+E(100,81,50,28,'mawa')+Dt(58,62,84,38,46,'#f6d79a',1);for(i=0;i<14;i++){var a=i*Math.PI/7;s+=Nt(100+44*Math.cos(a),81+23*Math.sin(a),i%2?'p':'a',i*26)}s+=Nt(100,80,'p',0)+Nt(90,84,'a',30)+Nt(110,76,'a',-30)+Sf(92,78,-10)+Sf(104,84,40)+Sf(98,72,10)}
+ return s};
+var KT=function(){var s=Sh(100,126,76);[[100,66],[62,90],[138,90],[78,112],[122,112]].forEach(function(c,i){var x=c[0],y=c[1];s+='<polygon points="'+(x-24)+','+y+' '+x+','+(y+14)+' '+x+','+(y+20)+' '+(x-24)+','+(y+6)+'" fill="#c9a04c"/><polygon points="'+(x+24)+','+y+' '+x+','+(y+14)+' '+x+','+(y+20)+' '+(x+24)+','+(y+6)+'" fill="#b08a38"/><polygon points="'+x+','+(y-14)+' '+(x+24)+','+y+' '+x+','+(y+14)+' '+(x-24)+','+y+'" fill="'+f('kaju')+'" stroke="#d6a94a" stroke-width="1.2"/><polygon points="'+x+','+(y-9)+' '+(x+14)+','+y+' '+x+','+(y+9)+' '+(x-14)+','+y+'" fill="#e9eef2" opacity=".5"/>'});return s+Nt(100,66,'p',0)};
+var LD=function(g,t){var s='';[[100,64,24],[64,90,25],[136,90,25],[100,104,27]].forEach(function(c,i){s+=Bl(c[0],c[1],c[2],g)+Dt(c[0]-c[2]*.7,c[1]-c[2]*.6,c[2]*1.4,c[2]*1.2,16,t=='k'?'#a67c2c':'#f2d2a8',i*5+2);s+=t=='k'?Nt(c[0],c[1]-c[2]*.5,'a',i*40):Nt(c[0]+3,c[1]-c[2]*.45,'p',i*30)});return s};
+var BF=function(g,side,dot,nut){var s=Sh(100,128,78);[[100,62],[60,88],[140,88],[100,106]].forEach(function(c,i){var x=c[0],y=c[1];s+='<rect x="'+(x-28)+'" y="'+(y+8)+'" width="56" height="12" rx="2" fill="'+side+'"/><rect x="'+(x-28)+'" y="'+(y-16)+'" width="56" height="26" rx="3" fill="'+f(g)+'"/>'+E(x-8,y-10,14,3,'#fff',' opacity=".25"')+Dt(x-26,y-14,52,22,20,dot,i*4+1)+Nt(x,y-3,nut,i*35)+Nt(x-14,y-6,nut,i*20)});return s};
+var PD=function(){var s=Sh(100,128,78);[[100,60],[60,84],[140,84],[100,104]].forEach(function(c,i){var x=c[0],y=c[1];s+=E(x,y+9,29,14,'#8a5a1e')+E(x,y,29,14,'peda')+E(x-8,y-4,13,4,'#fff',' opacity=".3"')+Dt(x-24,y-8,48,16,16,'#fff2cf',i*3)+Nt(x,y-1,'p',20)+Nt(x+7,y+2,'p',-30)});return s};
+var BW=function(liq,inner){return Sh(100,134,64)+E(100,82,66,17,'bowl')+E(100,82,60,13,liq)+inner+'<path d="M34 82 Q100 106 166 82 Q162 132 100 136 Q38 132 34 82Z" fill="'+f('bowl')+'"/><path d="M34 82 Q100 106 166 82" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/><path d="M52 106 Q100 126 148 106" fill="none" stroke="#8a5a14" stroke-opacity=".35" stroke-width="2"/>'};
+var JM=function(){var s='';[[64,76,17],[100,70,19],[136,76,17],[82,84,16],[118,84,16]].forEach(function(c){s+=Bl(c[0],c[1],c[2],'brown')+E(c[0],c[1]+c[2]*.1,c[2]*.9,c[2]*.55,'#e08a2c',' opacity=".25"')});return BW('#c4661c',s)};
+var RM=function(){var s='';[[66,78,25,13],[134,78,25,13],[100,72,27,14]].forEach(function(c,i){s+=E(c[0],c[1]+4,c[2],c[3],'#d9c7a0')+E(c[0],c[1],c[2],c[3],'white')+E(c[0]-6,c[1]-4,c[2]*.5,3,'#fff',' opacity=".6"')+Sf(c[0]-6,c[1]+2,i*40-20)+Nt(c[0]+8,c[1]-2,'p',i*30)+Nt(c[0]+12,c[1]+3,'p',50)});return BW('milk',s)};
+var RG=function(){var s='';[[64,76,17],[100,70,19],[136,76,17],[82,84,16],[118,84,16]].forEach(function(c){s+=Bl(c[0],c[1],c[2],'white')});return BW('#f4dd9a',s)};
+var tri=function(x,y,w,h){return '<path d="M'+x+' '+(y+h)+' L'+(x+w/2)+' '+y+' L'+(x+w)+' '+(y+h)+'Z" fill="'+f('sam')+'" stroke="#d98f26" stroke-width="9" stroke-linejoin="round"/>'+Dt(x+w*.3,y+h*.35,w*.4,h*.55,22,'#7d4408',x)};
+var SM=function(){return Sh(100,128,80)+tri(66,40,66,50)+tri(22,70,74,46)+E(160,98,24,10,'bowl')+E(160,95,20,7,'green')+E(150,128,26,11,'bowl')+E(150,125,22,8,'tam')+E(26,76,0,0,'none')};
+var KC=function(){var s='';[[100,62,27],[62,90,27],[138,90,27],[100,106,29]].forEach(function(c,i){s+=Bl(c[0],c[1],c[2],'sam')+E(c[0],c[1],c[2]*.55,c[2]*.35,'#8a520f',' opacity=".18"')+Dt(c[0]-c[2]*.8,c[1]-c[2]*.7,c[2]*1.6,c[2]*1.4,18,'#7d4408',i*6+3)});return s+'<path d="M160 112 q16 -6 20 -24" stroke="#5b8a1e" stroke-width="5" fill="none" stroke-linecap="round"/>'};
+var PK=function(){var s='';[[100,58,18],[70,76,20],[130,76,20],[58,102,20],[100,104,22],[142,102,20]].forEach(function(c,i){s+=Bl(c[0],c[1],c[2],'sam')+Dt(c[0]-c[2]*.8,c[1]-c[2]*.7,c[2]*1.6,c[2]*1.4,16,'#7d4408',i*7+1)});return s+'<rect x="84" y="84" width="24" height="16" rx="2" fill="#fff8e6" stroke="#d98f26" stroke-width="3" transform="rotate(-12 96 92)"/>'};
+var sp=function(cx,cy,r){var d='',n=64;for(var i=0;i<=n;i++){var a=i/n*6.6*Math.PI,rr=2+r*i/n;d+=(i?'L':'M')+(cx+rr*Math.cos(a)).toFixed(1)+' '+(cy+rr*.62*Math.sin(a)).toFixed(1)}return d};
+var JL=function(){var s=Sh(100,130,80);[[100,62,36],[62,94,34],[138,94,34]].forEach(function(c){var d=sp(c[0],c[1],c[2]);s+='<path d="'+d+'" transform="translate(0 4)" stroke="#7a2d00" stroke-opacity=".4" stroke-width="9" fill="none" stroke-linecap="round"/><path d="'+d+'" stroke="'+f('ora')+'" stroke-width="8" fill="none" stroke-linecap="round"/><path d="'+d+'" stroke="#ffe0a0" stroke-opacity=".7" stroke-width="2" fill="none" stroke-linecap="round" transform="translate(-1 -2)"/>'});return s};
+var pile=function(cx,cy,t,k){var s='';for(var i=0;i<11;i++){var x=cx-22+R(i+k)*44,y=cy-8+R(i*2+k)*16;s+=t=='k'?E(x,y,5.5,3.6,'kaju',' stroke="#b98f3a" stroke-width=".6"'):t=='a'?Nt(x,y,'a',R(i)*90):t=='p'?Nt(x,y,'p',R(i)*90):'<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="3.6" fill="#4b1d2b"/><circle cx="'+(x-1).toFixed(1)+'" cy="'+(y-1).toFixed(1)+'" r="1" fill="#a45a6e"/>'}return s};
+var H1=function(){return Sh(100,134,78)+'<rect x="40" y="22" width="120" height="34" rx="5" fill="'+f('red')+'" stroke="#e2b857" stroke-width="2"/><polygon points="100,28 114,39 100,50 86,39" fill="none" stroke="#e2b857" stroke-width="2"/><rect x="26" y="52" width="148" height="78" rx="8" fill="'+f('red')+'" stroke="#e2b857" stroke-width="3"/><rect x="36" y="62" width="128" height="58" rx="4" fill="#3c0711"/><path d="M100 62V120M36 91H164" stroke="#e2b857" stroke-width="2"/>'+pile(68,77,'k',1)+pile(132,77,'a',5)+pile(68,106,'p',9)+pile(132,106,'r',13)};
+var H2=function(){return Sh(100,134,78)+'<rect x="38" y="62" width="124" height="66" rx="6" fill="'+f('red')+'" stroke="#e2b857" stroke-width="2.5"/><rect x="32" y="46" width="136" height="24" rx="5" fill="#7d1228" stroke="#e2b857" stroke-width="2.5"/><rect x="92" y="46" width="16" height="82" fill="'+f('gold')+'"/><ellipse cx="82" cy="40" rx="19" ry="10" fill="'+f('gold')+'" transform="rotate(-20 82 40)"/><ellipse cx="118" cy="40" rx="19" ry="10" fill="'+f('gold')+'" transform="rotate(20 118 40)"/><circle cx="100" cy="44" r="7" fill="#b8892e"/>'+Dt(40,70,50,50,8,'#e2b857',3)+Bl(177,116,13,'kaju')+Bl(24,118,12,'peda')+Nt(177,104,'p',0)};
+var H3=function(){var s=Sh(100,134,80)+'<rect x="96" y="70" width="76" height="58" rx="5" fill="'+f('red')+'" stroke="#e2b857" stroke-width="2.5"/><rect x="92" y="58" width="84" height="18" rx="4" fill="#7d1228" stroke="#e2b857" stroke-width="2.5"/><rect x="127" y="58" width="12" height="70" fill="'+f('gold')+'"/><circle cx="133" cy="54" r="8" fill="#b8892e"/>';s+='<circle cx="46" cy="86" r="26" fill="#ffb020" opacity=".25"/><path d="M14 104 Q46 142 78 104Z" fill="'+f('tam')+'"/>'+E(46,104,32,7,'#4a2008')+'<path d="M46 102 Q35 84 46 62 Q57 84 46 102Z" fill="#ffb020"/><path d="M46 100 Q41 88 46 76 Q51 88 46 100Z" fill="#fff3b0"/>';[[22,124],[36,132],[56,134],[72,126],[84,118]].forEach(function(c,i){s+='<circle cx="'+c[0]+'" cy="'+c[1]+'" r="7" fill="'+f('ora')+'"/><circle cx="'+c[0]+'" cy="'+c[1]+'" r="3" fill="#b8470a" opacity=".6"/>'});return s};
+var M={mr:function(){return GH('m')},pl:function(){return GH('n')},pt:function(){return GH('p')},kk:KT,kl:function(){return LD('kaju','k')},cl:function(){return LD('choc','c')},cb:function(){return BF('choc','#2a1209','#e9c8a0','p')},db:function(){return BF('dodha','#4d2a0c','#e6b97a','a')},pe:PD,gj:JM,rm:RM,ka:function(){return BF('kal','#9a7430','#fff6dc','p')},mc:function(){return BF('cake','#6e3e10','#f0c789','a')},rg:RG,sa:SM,kc:KC,pk:PK,je:JL,H1:H1,H2:H2,H3:H3};
+var D=[
+["g","Mawa Rabdi Ghewar","Crisp ghewar crowned with thick mawa, saffron, almonds and pistachios.","₹1,200","/kg","mr","#fbe9c6,#efc77a"],
+["g","Traditional Plain Desi Ghee Ghewar","Lacy, honeycomb-crisp and fried in pure desi ghee.","₹720","/kg","pl","#fdf0d2,#f0cf86"],
+["g","Palang Tod Ghewar","Extra-thick royal ghewar with a rich ghee glaze.","₹1,100","/kg","pt","#f7dfae,#e3a94c"],
+["m","Kaju Katli","Silky cashew fudge with edible silver varq.","₹1,400","/kg","kk","#fff4d6,#f1d48a"],
+["m","Kaju Ladoo","Rich cashew ladoo that melts in the mouth.","₹1,000","/kg","kl","#fdeec6,#ecc875"],
+["m","Chocolate Ladoo","A modern twist on the festive favourite.","₹640","/kg","cl","#f1dccb,#c9a083"],
+["m","Chocolate Barfi","Dense, fudgy cocoa barfi with pistachio.","₹680","/kg","cb","#efd8c6,#c99a78"],
+["m","Dodha Barfi","Slow-cooked milk and grain barfi, Punjabi style.","₹760","/kg","db","#f6e0bd,#d9a468"],
+["m","Special Mathura / Desi Peda","Soft khoya pedas with cardamom and pistachio.","₹600","/kg","pe","#fbe8c8,#e8b872"],
+["m","Hot Gulab Jamun","Served warm, soaked in cardamom syrup.","₹30","/piece","gj","#fde5c0,#e7a95a"],
+["m","Kesar Rasmalai","Soft paneer discs in chilled saffron milk.","₹60","/piece","rm","#fff3d8,#f0d08a"],
+["m","Kalakand","Grainy, milky and lightly sweet.","₹640","/kg","ka","#fff1d0,#ebcd8a"],
+["m","Milk Cake","Caramelised, slow-cooked milk cake.","₹620","/kg","mc","#f6dfb8,#dba865"],
+["m","Spongy White Rasgulle","Juicy, spongy and made fresh daily.","₹24","/piece","rg","#fff6e0,#f3d98f"],
+["n","Crispy Punjabi Samosa","Golden and flaky, with green and tamarind chutney.","₹15","/piece","sa","#f9e6b8,#e9b762"],
+["n","Khasta Kachori","Crunchy dal kachori served hot.","₹15","/piece","kc","#f8e3b3,#e4b060"],
+["n","Paneer Pakoda","Crispy gram-flour fritters stuffed with paneer.","₹40","/plate","pk","#f8e5b8,#e6b56a"],
+["n","Desi Ghee Jalebi","Hot, crisp spirals soaked in sugar syrup.","₹360","/kg","je","#fde3b0,#f2a95a"]];
+var T=[["all","All"],["g","Special Ghewar"],["m","Traditional Mithai"],["n","Fresh Namkeen & Snacks"]],TG={g:"Ghee Special",m:"Mithai",n:"Fresh Today"};
+var tabs=document.getElementById("tabs"),grid=document.getElementById("grid");
+function show(k){
+  [].forEach.call(tabs.children,function(b){b.classList.toggle("on",b.dataset.k===k)});
+  grid.innerHTML=D.filter(function(p){return k=="all"||p[0]==k}).map(function(p){var c=p[6].split(",");return '<div class="card"><div class="ph" style="background:radial-gradient(circle at 50% 40%,'+c[0]+','+c[1]+')"><i>'+TG[p[0]]+'</i>'+S(p[1],M[p[5]]())+'</div><div class="cb"><h3>'+p[1]+'</h3><p>'+p[2]+'</p><div class="pr"><b>'+p[3]+' <small>'+p[4]+'</small></b><button class="btn btn-s" data-q="'+p[1]+'">Quick Inquiry</button></div></div></div>'}).join("");
+}
+T.forEach(function(t){var b=document.createElement("button");b.className="tab";b.textContent=t[1];b.dataset.k=t[0];b.onclick=function(){show(t[0])};tabs.appendChild(b)});
+show("all");
+document.getElementById("heroArt").innerHTML=S("Mawa and dry-fruit ghewar",GH('m'),"0 -8 200 166");
+document.querySelectorAll(".hart").forEach(function(el){el.innerHTML=S("Gift hamper",M[el.dataset.art](),"0 10 200 135")});
+var O=[["Shamli Outlet","Opp. Verma Market, Delhi Saharanpur Rd, Shamli, UP 247776","Saini Ji Ghewar Opp. Verma Market Delhi Saharanpur Rd Shamli UP 247776"],["Kandhla Outlet","Near Veer Abdul Hamid Chowk, Kairana Bus Stand, Kandhla","Near Veer Abdul Hamid Chowk Kairana Bus Stand Kandhla"],["Thanabhawan Outlet","Near Deewan Market, NH-709 B, Thanabhawan","Near Deewan Market NH-709 B Thanabhawan"]];
+document.getElementById("og").innerHTML=O.map(function(o){return '<div class="oc rv"><h3>📍 '+o[0]+'</h3><p>'+o[1]+'</p><a class="btn btn-p" style="justify-content:center" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(o[2])+'">Get Directions</a></div>'}).join("");
+document.addEventListener("click",function(e){
+  var q=e.target.closest("[data-q]");if(q){wa("Namaste! I would like to inquire about: "+q.dataset.q+".");return}
+  var w=e.target.closest("[data-wa]");if(w){e.preventDefault();wa(w.dataset.wa)}
+  if(e.target.closest("#links a"))document.getElementById("links").classList.remove("open");
+});
+document.getElementById("burger").onclick=function(){document.getElementById("links").classList.toggle("open")};
+document.getElementById("bf").onsubmit=function(e){e.preventDefault();
+  wa("Bulk/Party Inquiry\nName: "+fn.value+"\nPhone: "+fp.value+"\nType: "+fo.value+"\nDate needed: "+(fd.value||"-")+"\nDetails: "+(fm.value||"-"))};
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll(".rv").forEach(function(el){io.observe(el)});
+</script>
+</body>
+</html>
